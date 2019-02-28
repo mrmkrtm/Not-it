@@ -1,15 +1,47 @@
  	div .card{
-		background-color: #ffd54f;
+		background-color: none;
 		padding: 10px;
   		max-width: 100%;
   		height: auto;
 		}		
 	.nav-wrapper{
-		background-color: #607d8b;
+		background-color: #26a69a;
 		color
 		}
 	.card-image{
 		max-width: 100%;
   		height: auto;
   		border-radius: 50%;
+  		position: static;	}
+	.bottom-left{
+		position: absolute;
+		bottom: 10px;
+		left: 10px;
+
+	}
+
+	.page-footer{
+		position: fixed;
+  		left: 0;
+  		bottom: 0;
+  		width: 100%;
+  		background-color:;
+  		color: white;
+  		text-align: left;
+	}
+
+	.icon-bar{
+		position: fixed;
+  		left: 5%;
+  		bottom: 10%;
+  		width: 100%;
+	}
+
+	.icon-bar a {
+  	display: ;
+  	text-align: center;
+  	padding: 10%;
+  	transition: all 0.3s ease;
+  	color: #607d8b;
+  	font-size: 20px;
 	}
